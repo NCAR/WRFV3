@@ -1,28 +1,22 @@
-# The Architect theme
+# This is the new experimental public release page for the Weather Research and Forecasting (WRF) Model
 
-[![Build Status](https://travis-ci.org/pages-themes/architect.svg?branch=master)](https://travis-ci.org/pages-themes/architect) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-architect.svg)](https://badge.fury.io/rb/jekyll-theme-architect)
+Click here to download the code from the WRF site
+[![Click here to download the most recent code from the WRF site](http://www2.mmm.ucar.edu/wrf/users/images/header.jpg)](http://www2.mmm.ucar.edu/wrf/users/downloads.html)
 
-*Architect is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/architect), or even [use it today](#usage).*
+Or, you can click here to download the most recent code through Github
+[![Click here to download the most recent code from Github](http://www.aha.io/assets/integration_logos/github-bb449e0ffbacbcb7f9c703db85b1cf0b.png)](https://github.com/NCAR/WRF/releases/tag/V3.8.1)
 
-![Thumbnail of architect](thumbnail.png)
+Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation [here](#Public-repository)
 
-## Usage
+## What is WRF?
 
-To use the Architect theme:
+The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting needs. It features two dynamical cores, a data assimilation system, and a software architecture facilitating parallel computation and system extensibility.
 
-1. Add the following to your site's `_config.yml`:
+## What is Github?
+We can include whatever type of explanation we want here!
 
-    ```yml
-    theme: jekyll-theme-architect
-    ```
-
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
-
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
-
-
+## Public repository
+We can include whatever explanation we think is appropriate here!
 
 ## Customizing
 
@@ -64,18 +58,6 @@ If you'd like to change the theme's HTML layout:
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/architect/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Architect theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Architect? We'd love your help. Architect is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 
