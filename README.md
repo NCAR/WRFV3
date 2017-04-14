@@ -1,11 +1,11 @@
 ## How to get the WRF code
 
-Click here to download the code from the WRF site: 
+Click below to download the code from the WRF site: 
 [![Click here to download the most recent code from the WRF site](http://www2.mmm.ucar.edu/wrf/users/images/header.jpg)](http://www2.mmm.ucar.edu/wrf/users/downloads.html)
 
-Or, you can click here to download the most recent code through Github: 
+Or, you can click below to download the most recent code through Github: 
 
-<a href="https://github.com/NCAR/WRF/releases/"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" alt="Click here to download the most recent code from Github"  height="100"/></a>
+<a href="https://github.com/NCAR/WRF/releases/"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" alt="Click here to download the most recent code from Github"  height="50"/></a>
 
 Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation [below](#Public-repository):
 
