@@ -1,40 +1,34 @@
-# This is the new experimental public release page for the Weather Research and Forecasting (WRF) Model
+## How to get the WRF code
 
-Click here to download the code from the WRF site
+Click here to download the code from the WRF site: 
 [![Click here to download the most recent code from the WRF site](http://www2.mmm.ucar.edu/wrf/users/images/header.jpg)](http://www2.mmm.ucar.edu/wrf/users/downloads.html)
 
-Or, you can click here to download the most recent code through Github
-[![Click here to download the most recent code from Github](http://www.aha.io/assets/integration_logos/github-bb449e0ffbacbcb7f9c703db85b1cf0b.png)](https://github.com/NCAR/WRF/releases/tag/V3.8.1)
+Or, you can click here to download the most recent code through Github: 
+[![Click here to download the most recent code from Github](https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png)](https://github.com/NCAR/WRF/releases/)
 
-Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation [here](#Public-repository)
+Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation [below](#Public-repository):
 
 ## What is WRF?
 
-The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting needs. It features two dynamical cores, a data assimilation system, and a software architecture facilitating parallel computation and system extensibility.
+The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale numerical weather prediction system designed for both atmospheric research and operational forecasting needs. It features two dynamical cores, a data assimilation system, and a software architecture facilitating parallel computation and system extensibility. You can find more information on [The WRF Users Page](http://www2.mmm.ucar.edu/wrf/users/), which includes extensive documentation on downloading, installing, and using the model.
+
+## What is Git?
+
+[Git](https://en.wikipedia.org/wiki/Git) is a [version control](https://en.wikipedia.org/wiki/Version_control) software which allows for development of software by large teams in a coordinated, organized way.
 
 ## What is Github?
-We can include whatever type of explanation we want here!
+
+[Github](https://en.wikipedia.org/wiki/Github) is a website for hosting Git repositories, as well as providing tools for developers to propose and introduce changes to software.
 
 ## Public repository
-We can include whatever explanation we think is appropriate here!
+The WRF code has been hosted on Github in August 2016. For WRF Version 3.9, we are offering a "release repository" to the public. In contrast to previous releases [hosted on the WRF Users page](http://www2.mmm.ucar.edu/wrf/users/downloads.html), which simply offer a .tar file with the relevant code, you now have the choice of [downloading the WRF code through Github](https://github.com/NCAR/WRF/releases) or cloning [the release repository](https://github.com/NCAR/WRF/). Cloning the repository has the added benefit of including the full history of each change to the code, which can be accessed using [the appropriate git commands](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History), or through [https://github.com/NCAR/WRF/commits/master](this web page).
 
-## Customizing
+If you do clone the release repository, you will see that the master branch of the public repository only contains history going back to August 2016, when the WRF code was moved from Subversion to Git. However, if you are interested in seeing earlier history, you can issue the command `git log old-history` to see older logs, which are contained on the "old-history" branch. This older history [can also be accessed on the web](https://github.com/NCAR/WRF/commits/old-history). The "old-history" branch should not be used directly, as it will likely not compile properly!
 
-### Configuration variables
+## Development repository
+The main development repository is not publicly available, since it is often in a state of flux that should not be used for scientific experiments, and it is often not fully tested until the preparation for public releases. If you have made changes to the code that you wish to contribute (or are planning to do so in the future), contact kavulich@ucar.edu or wrfhelp@ucar.edu to request access to the Developer Repository.
 
-Architect will respect the following variables, if set in your site's `_config.yml`:
-
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
-
-Additionally, you may choose to set the following optional variables:
-
-```yml
-show_downloads: ["true" or "false" to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+<!--## Customizing
 
 ### Stylesheet
 
@@ -71,4 +65,4 @@ If you'd like to preview the theme locally (for example, in the process of propo
 
 ### Running tests
 
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.-->
