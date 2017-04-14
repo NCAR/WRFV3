@@ -7,7 +7,7 @@ Or, you can click below to download the most recent code through Github:
 
 <a href="https://github.com/NCAR/WRF/releases/"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" alt="Click here to download the most recent code from Github"  height="50"/></a>
 
-Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation <a href=#public>below>.
+Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation <a href="#public">below</a>.
 
 ## What is WRF?
 
