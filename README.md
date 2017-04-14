@@ -7,7 +7,7 @@ Or, you can click below to download the most recent code through Github:
 
 <a href="https://github.com/NCAR/WRF/releases/"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" alt="Click here to download the most recent code from Github"  height="50"/></a>
 
-Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation [below](#Public-repository):
+Users who are interested in contributing code may consider cloning the public repository, found at https://github.com/NCAR/WRF. See futher explanation <a href=#public>below>.
 
 ## What is WRF?
 
@@ -20,6 +20,8 @@ The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale 
 ## What is Github?
 
 [Github](https://en.wikipedia.org/wiki/Github) is a website for hosting Git repositories, as well as providing tools for developers to propose and introduce changes to software.
+
+<a name=public>
 
 ## Public repository
 The WRF code has been hosted on Github in August 2016. For WRF Version 3.9, we are offering a "release repository" to the public. In contrast to previous releases [hosted on the WRF Users page](http://www2.mmm.ucar.edu/wrf/users/downloads.html), which simply offer a .tar file with the relevant code, you now have the choice of [downloading the WRF code through Github](https://github.com/NCAR/WRF/releases) or cloning [the release repository](https://github.com/NCAR/WRF/). Cloning the repository has the added benefit of including the full history of each change to the code, which can be accessed using [the appropriate git commands](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History), or through [https://github.com/NCAR/WRF/commits/master](this web page).
