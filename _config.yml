@@ -1,4 +1,4 @@
 theme: jekyll-theme-architect
 title: Weather Research and Forecasting Model
 description: This is the new experimental public release page for the Weather Research and Forecasting (WRF) Model
-show_downloads: true
+show_downloads: false
