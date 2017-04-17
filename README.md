@@ -21,10 +21,10 @@ The Weather Research and Forecasting (WRF) Model is a next-generation mesoscale 
 
 [Github](https://en.wikipedia.org/wiki/Github) is a website for hosting Git repositories, as well as providing tools for developers to propose and introduce changes to software.
 
-<a name=public>
+<a name=public></a>
 
 ## Public repository
-The WRF code has been hosted on Github in August 2016. For WRF Version 3.9, we are offering a "release repository" to the public. In contrast to previous releases [hosted on the WRF Users page](http://www2.mmm.ucar.edu/wrf/users/downloads.html), which simply offer a .tar file with the relevant code, you now have the choice of [downloading the WRF code through Github](https://github.com/NCAR/WRF/releases) or cloning [the release repository](https://github.com/NCAR/WRF/). Cloning the repository has the added benefit of including the full history of each change to the code, which can be accessed using [the appropriate git commands](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History), or through [https://github.com/NCAR/WRF/commits/master](this web page).
+The WRF code has been hosted on Github in August 2016. For WRF Version 3.9, we are offering a "release repository" to the public. In contrast to previous releases [hosted on the WRF Users page](http://www2.mmm.ucar.edu/wrf/users/downloads.html), which simply offer a .tar file with the relevant code, you now have the choice of [downloading the WRF code through Github](https://github.com/NCAR/WRF/releases) or cloning [the release repository](https://github.com/NCAR/WRF/). Cloning the repository has the added benefit of including the full history of each change to the code, which can be accessed using [the appropriate git commands](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History), or through [this web page](https://github.com/NCAR/WRF/commits/master).
 
 If you do clone the release repository, you will see that the master branch of the public repository only contains history going back to August 2016, when the WRF code was moved from Subversion to Git. However, if you are interested in seeing earlier history, you can issue the command `git log old-history` to see older logs, which are contained on the "old-history" branch. This older history [can also be accessed on the web](https://github.com/NCAR/WRF/commits/old-history). The "old-history" branch should not be used directly, as it will likely not compile properly!
 
