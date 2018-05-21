@@ -2151,6 +2151,7 @@ CONTAINS
     zagl = 0.
 ! Note: kte needs to be larger than kts, i.e., kte >= kts+1.
     DO k = kts,kte-1
+       p2a = exner(k)
        t  = th(k)*exner(k)
 
 !x      if ( ct .gt. 0.0 ) then
